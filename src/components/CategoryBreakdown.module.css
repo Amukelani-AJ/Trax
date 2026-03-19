@@ -1,0 +1,53 @@
+.wrapper {
+  padding: 22px 26px;
+}
+
+.empty {
+  font-size: 14px;
+  color: var(--faint);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 18px;
+}
+
+.item { }
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.catLabel {
+  color: var(--text);
+}
+
+.amount {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.bar {
+  height: 5px;
+  background: var(--border);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  border-radius: 3px;
+  animation: barGrow 0.7s ease both;
+}
+
+.pct {
+  font-size: 11px;
+  color: var(--faint);
+  margin-top: 4px;
+  text-align: right;
+}

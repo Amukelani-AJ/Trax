@@ -1,0 +1,41 @@
+.wrapper {
+  overflow: hidden;
+}
+
+.listHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.count {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.total {
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--accent);
+}
+
+.list {
+  list-style: none;
+}
+
+.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 52px 24px;
+  color: var(--faint);
+  font-size: 14px;
+}
+
+.emptyIcon {
+  font-size: 38px;
+}

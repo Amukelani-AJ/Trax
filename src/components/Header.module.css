@@ -1,0 +1,50 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  font-family: var(--font-head);
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1;
+}
+
+.name {
+  font-family: var(--font-head);
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  line-height: 1.1;
+}
+
+.tagline {
+  font-size: 11px;
+  color: var(--faint);
+  margin-top: 2px;
+}
+
+.plus {
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+@media (max-width: 480px) {
+  .header   { padding: 14px 16px; }
+  .tagline  { display: none; }
+}
