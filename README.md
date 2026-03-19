@@ -1,4 +1,4 @@
-# 💰 Spendly — Personal Expense Tracker
+# 💰 TRAX — Personal Expense Tracker
 
 A clean, portfolio-ready CRUD expense tracker built with **React + Vite**.  
 Dark theme, ZAR currency, category breakdowns, filter/search, and smooth animations.
